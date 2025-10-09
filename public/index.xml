@@ -1,2 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My New Hugo Site</title><link>https://example.org/</link><description>Recent content on My New Hugo Site</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://example.org/posts/firstpost/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/posts/firstpost/</guid><description>&lt;h1 id="this-is-how-it-all-starts-documenting-my-hugo-odyssey"&gt;This is How It All Starts: Documenting My Hugo Odyssey&lt;/h1&gt;
-&lt;p&gt;Hey there, fellow tinkerer. If you&amp;rsquo;re anything like me—a developer who&amp;rsquo;s spent too many late nights wrestling with bloated CMSes—you know the thrill of stripping things back to basics. Static sites? They&amp;rsquo;re the minimalist&amp;rsquo;s dream: fast, secure, and zero server-side drama. Today, I finally carved out time to dip my toes into Hugo, the Go-powered static site generator that&amp;rsquo;s been on my radar for years. No more excuses. This post is my raw, unfiltered log of the setup process. Think of it as a breadcrumb trail for anyone following in my footsteps. Let&amp;rsquo;s break it down, step by step, because if I&amp;rsquo;m doing this once, I might as well make it repeatable.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/firstpost/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/firstpost/</guid>
+      <description>&lt;h1 id=&#34;this-is-how-it-all-starts-documenting-my-hugo-odyssey&#34;&gt;This is How It All Starts: Documenting My Hugo Odyssey&lt;/h1&gt;&#xA;&lt;p&gt;Hey there, fellow tinkerer. If you&amp;rsquo;re anything like me—a developer who&amp;rsquo;s spent too many late nights wrestling with bloated CMSes—you know the thrill of stripping things back to basics. Static sites? They&amp;rsquo;re the minimalist&amp;rsquo;s dream: fast, secure, and zero server-side drama. Today, I finally carved out time to dip my toes into Hugo, the Go-powered static site generator that&amp;rsquo;s been on my radar for years. No more excuses. This post is my raw, unfiltered log of the setup process. Think of it as a breadcrumb trail for anyone following in my footsteps. Let&amp;rsquo;s break it down, step by step, because if I&amp;rsquo;m doing this once, I might as well make it repeatable.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
