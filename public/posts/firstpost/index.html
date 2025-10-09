@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+    <title> :: My New Hugo Site</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="This is How It All Starts: Documenting My Hugo Odyssey Hey there, fellow tinkerer. If you&rsquo;re anything like me—a developer who&rsquo;s spent too many late nights wrestling with bloated CMSes—you know the thrill of stripping things back to basics. Static sites? They&rsquo;re the minimalist&rsquo;s dream: fast, secure, and zero server-side drama. Today, I finally carved out time to dip my toes into Hugo, the Go-powered static site generator that&rsquo;s been on my radar for years. No more excuses. This post is my raw, unfiltered log of the setup process. Think of it as a breadcrumb trail for anyone following in my footsteps. Let&rsquo;s break it down, step by step, because if I&rsquo;m doing this once, I might as well make it repeatable.
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="http://localhost:1313/posts/firstpost/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+
+
+
+
+
+<link rel="shortcut icon" href="http://localhost:1313/favicon.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="">
+<meta property="og:description" content="This is How It All Starts: Documenting My Hugo Odyssey Hey there, fellow tinkerer. If you&rsquo;re anything like me—a developer who&rsquo;s spent too many late nights wrestling with bloated CMSes—you know the thrill of stripping things back to basics. Static sites? They&rsquo;re the minimalist&rsquo;s dream: fast, secure, and zero server-side drama. Today, I finally carved out time to dip my toes into Hugo, the Go-powered static site generator that&rsquo;s been on my radar for years. No more excuses. This post is my raw, unfiltered log of the setup process. Think of it as a breadcrumb trail for anyone following in my footsteps. Let&rsquo;s break it down, step by step, because if I&rsquo;m doing this once, I might as well make it repeatable.
+" />
+<meta property="og:url" content="http://localhost:1313/posts/firstpost/" />
+<meta property="og:site_name" content="My New Hugo Site" />
+
+  <meta property="og:image" content="http://localhost:1313/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="http://localhost:1313/">
+  <div class="logo">
+    Terminal
+  </div>
+</a>
+
+    </div>
+    
+    
+  </div>
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="http://localhost:1313/posts/firstpost/"></a>
+  </h1>
+  <div class="post-meta"></div>
+
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="this-is-how-it-all-starts-documenting-my-hugo-odyssey">This is How It All Starts: Documenting My Hugo Odyssey<a href="#this-is-how-it-all-starts-documenting-my-hugo-odyssey" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>Hey there, fellow tinkerer. If you&rsquo;re anything like me—a developer who&rsquo;s spent too many late nights wrestling with bloated CMSes—you know the thrill of stripping things back to basics. Static sites? They&rsquo;re the minimalist&rsquo;s dream: fast, secure, and zero server-side drama. Today, I finally carved out time to dip my toes into Hugo, the Go-powered static site generator that&rsquo;s been on my radar for years. No more excuses. This post is my raw, unfiltered log of the setup process. Think of it as a breadcrumb trail for anyone following in my footsteps. Let&rsquo;s break it down, step by step, because if I&rsquo;m doing this once, I might as well make it repeatable.</p>
+<h2 id="prerequisites-gear-up-with-the-essentials">Prerequisites: Gear Up with the Essentials<a href="#prerequisites-gear-up-with-the-essentials" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Before firing up Hugo, I needed the foundational tools. I&rsquo;m on Windows (your mileage may vary), so I leaned on familiar installers to keep things snappy.</p>
+<ol>
+<li>
+<p><strong>Grab Git</strong>: Version control is non-negotiable, even for a solo demo site. Headed to <a href="https://git-scm.com/">git-scm.com</a> and downloaded the latest installer. Ran it with defaults—nothing fancy. A quick <code>git --version</code> in my terminal confirmed it was live.</p>
+</li>
+<li>
+<p><strong>Install Go</strong>: Hugo&rsquo;s built in Go, but you don&rsquo;t need the full toolchain unless you&rsquo;re hacking the source. Still, having it around never hurts. Snagged it from <a href="https://golang.org/">golang.org</a> and let the installer handle the PATH magic. Verified with <code>go version</code>.</p>
+</li>
+<li>
+<p><strong>Hugo via Winget</strong>: Why complicate things? Windows&rsquo; built-in package manager is a gem for this. Opened PowerShell as admin and ran:</p>
+<pre tabindex="0"><code>winget install Hugo.Hugo.Extended
+</code></pre><p>The &ldquo;Extended&rdquo; flavor includes goodies like SCSS processing and Chroma syntax highlighting—essential for any theme worth its salt. Post-install, <code>hugo version</code> spat out something like &ldquo;hugo v0.XX.X-extended windows-amd64,&rdquo; and I was golden.</p>
+</li>
+</ol>
+<p>Pro tip: If winget gripes about permissions, double-check your execution policy with <code>Set-ExecutionPolicy RemoteSigned -Scope CurrentUser</code>.</p>
+<h2 id="carving-out-a-workspace">Carving Out a Workspace<a href="#carving-out-a-workspace" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Organization first, chaos later. I didn&rsquo;t want my Hugo experiments cluttering my root drive, so I created a dedicated spot in my user profile: <code>~/source</code>. It&rsquo;s simple, accessible, and plays nice with my existing habits.</p>
+<ul>
+<li>Navigated to <code>%USERPROFILE%</code> in Explorer.</li>
+<li>Made a new folder: <code>source</code>.</li>
+<li>Inside that, created <code>hugodemo</code> for my inaugural site. (We&rsquo;ll populate it next.)</li>
+</ul>
+<p>This keeps things tidy—your source lives here, builds go to <code>public/</code>, and you&rsquo;re not hunting for files later.</p>
+<h2 id="scaffolding-the-site-hugos-quickstart-magic">Scaffolding the Site: Hugo&rsquo;s Quickstart Magic<a href="#scaffolding-the-site-hugos-quickstart-magic" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>With tools in place, it was time to summon the beast. From my <code>source</code> directory, I dropped to the command line and let Hugo do the heavy lifting:</p>
+<pre tabindex="0"><code>hugo new site hugodemo
+cd hugodemo
+</code></pre><p>Boom. In seconds, Hugo spun up a skeleton: <code>config.toml</code>, <code>archetypes/</code>, <code>content/</code>, <code>layouts/</code>, <code>static/</code>, <code>themes/</code>, and <code>public/</code>. It&rsquo;s bare-bones but battle-ready. No fluff, just a canvas.</p>
+<h2 id="picking-and-plumbing-in-a-theme">Picking and Plumbing in a Theme<a href="#picking-and-plumbing-in-a-theme" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Hugo ships theme-less by default, which is both a blessing and a curse. To see something pretty without wiring up my own CSS, I browsed <a href="https://themes.gohugo.io/">themes.gohugo.io</a>. Scrolling through the retro vibes, the <a href="https://github.com/panr/hugo-theme-terminal">Terminal theme</a> jumped out—simple, monospaced elegance with duotone syntax highlighting. Perfect for a dev blog.</p>
+<p>To integrate it without bloating my repo, I went the submodule route (clean, versioned, and Git-friendly). From the <code>hugodemo</code> root:</p>
+<pre tabindex="0"><code>git submodule add -f https://github.com/panr/hugo-theme-terminal.git themes/terminal
+</code></pre><p>(Note: I had to tack on <code>.git</code> and specify <code>themes/terminal</code>—Git&rsquo;s picky like that. If you&rsquo;re cloning fresh, init your repo first with <code>git init</code>.)</p>
+<p>This pulls the theme into <code>themes/terminal</code> without copying files outright. Now, tweak <code>config.toml</code> to wire it up:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#a6e22e">baseURL</span> = <span style="color:#e6db74">&#34;/&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">languageCode</span> = <span style="color:#e6db74">&#34;en-us&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">title</span> = <span style="color:#e6db74">&#34;My Hugo Demo&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">theme</span> = <span style="color:#e6db74">&#34;terminal&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">params</span>]
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">contentTypeName</span> = <span style="color:#e6db74">&#34;posts&#34;</span>
+</span></span></code></pre></div><p>That&rsquo;s it. No deep config dives yet—Terminal&rsquo;s defaults are solid.</p>
+<h2 id="igniting-the-server-from-code-to-localhost">Igniting the Server: From Code to localhost<a href="#igniting-the-server-from-code-to-localhost" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Ready to feast your eyes? Fire up the dev server:</p>
+<pre tabindex="0"><code>hugo server -t terminal
+</code></pre><p>Hugo churned for a millisecond, then beamed: &ldquo;Web Server is available at //localhost:1313/ (bind address 127.0.0.1)&rdquo;. (Those forward slashes? Windows quirk—ignore &rsquo;em.) Popped open my browser, punched in <code>localhost:1313</code>, and there it was: a crisp, retro landing page staring back at me. Empty content directory? Sure, but the skeleton proved the pipes worked. Auto-reload meant tweaks to <code>config.toml</code> hot-swapped without a restart.</p>
+<h2 id="reflections-from-the-trenches">Reflections from the Trenches<a href="#reflections-from-the-trenches" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Total time: Under 30 minutes, including detours for typos and docs dives. Hugo&rsquo;s opinionated simplicity is its superpower—no npm installs, no Yarn lockfiles, just pure, declarative bliss. Next up? Populating that <code>content/posts/</code> dir with real markdown and maybe tweaking Terminal&rsquo;s color scheme via its <a href="https://panr.github.io/terminal-css/">CSS generator</a>.</p>
+<p>If you&rsquo;re stalling on static sites like I was, this is your sign: Start small, document as you go. It&rsquo;s not just setup—it&rsquo;s momentum. What&rsquo;s your first Hugo experiment? Drop a comment if you hit snags; I&rsquo;ll be here, caffeinated and compiling.</p>
+<p><em>Last updated: October 07, 2025 | ~400 words | 2 min read</em></p>
+
+      </div></div>
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
