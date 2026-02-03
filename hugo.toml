@@ -1,3 +1,60 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://icy-field-0e2c7ce10.2.azurestaticapps.net/"
+languageCode = "en-us"
+title = "Aaron Warwick"
+
+theme = "terminal"
+
+paginate = 10
+
+[params]
+  contentTypeName = "posts"
+  themeColor = "green"
+  showMenuItems = 5
+  fullWidthTheme = false
+  centerTheme = true
+
+  # Subtitle under your name
+  subtitle = "network engineer · cloud · homelab · writeups"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Aaron Warwick"
+    subtitle = "network engineer · cloud · homelab · writeups"
+    weight = 1
+
+    [languages.en.params.logo]
+      logoText = "aaron@warwick:~$"
+      logoHomeLink = "/"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    url = "/about/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "projects"
+    url = "/projects/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "writeups"
+    name = "writeups"
+    url = "/writeups/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "blog"
+    url = "/posts/"
+    weight = 4
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "contact"
+    url = "/contact/"
+    weight = 5
