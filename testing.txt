@@ -1,0 +1,2 @@
+To test locally, run this command from in this folder. 
+hugo server -D

@@ -16,8 +16,6 @@ Before firing up Hugo, I needed the foundational tools. I'm on Windows (your mil
    ```
    The "Extended" flavor includes goodies like SCSS processing and Chroma syntax highlighting—essential for any theme worth its salt. Post-install, `hugo version` spat out something like "hugo v0.XX.X-extended windows-amd64," and I was golden.
 
-Pro tip: If winget gripes about permissions, double-check your execution policy with `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`.
-
 ## Carving Out a Workspace
 
 Organization first, chaos later. I didn't want my Hugo experiments cluttering my root drive, so I created a dedicated spot in my user profile: `~/source`. It's simple, accessible, and plays nice with my existing habits.
