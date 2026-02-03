@@ -1,3 +1,8 @@
+---
+title: "Hugo Odyssey"
+date: 2026-02-03T12:00:00-06:00
+draft: true
+---
 # This is How It All Starts: Documenting My Hugo Odyssey
 
 Hey there, fellow tinkerer. If you're anything like me—a developer who's spent too many late nights wrestling with bloated CMSes—you know the thrill of stripping things back to basics. Static sites? They're the minimalist's dream: fast, secure, and zero server-side drama. Today, I finally carved out time to dip my toes into Hugo, the Go-powered static site generator that's been on my radar for years. No more excuses. This post is my raw, unfiltered log of the setup process. Think of it as a breadcrumb trail for anyone following in my footsteps. Let's break it down, step by step, because if I'm doing this once, I might as well make it repeatable.
