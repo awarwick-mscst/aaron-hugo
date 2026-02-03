@@ -20,14 +20,6 @@ jobs:
           submodules: true
           lfs: false
 
-      - name: Build site (Hugo in container)
-        run: |
-          docker run --rm \
-            -v "${{ github.workspace }}:/src" \
-            -w /src \
-            ghcr.io/gohugoio/hugo:v0.155.2 \
-            hugo --minify
-
       - name: Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
