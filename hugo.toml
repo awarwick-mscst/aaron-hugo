@@ -4,7 +4,8 @@ title = "Aaron Warwick"
 
 theme = "terminal"
 
-paginate = 10
+[pagination]
+  pagerSize = 10
 
 [params]
   contentTypeName = "posts"
