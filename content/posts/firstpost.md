@@ -1,7 +1,7 @@
 ---
 title: "Hugo Odyssey"
 date: 2026-02-03T12:00:00-06:00
-draft: true
+draft: false
 ---
 # This is How It All Starts: Documenting My Hugo Odyssey
 
