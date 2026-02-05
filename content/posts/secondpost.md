@@ -1,6 +1,6 @@
 ---
 title: "Creating a post"
-date: 2026-02-03T12:00:00-06:00
+date: 2026-02-03T13:00:00-06:00
 draft: false
 ---
 # Posting to Hugo is easy
