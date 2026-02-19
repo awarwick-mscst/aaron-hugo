@@ -70,6 +70,7 @@ You need:
 - A small SSD
 
 Old small form factor desktops are perfect.
+A 4 port, 1G NIC will turn many PCs into a firewall.
 Mini PCs with dual NICs are even better.
 Repurpose first. Upgrade later.
 
@@ -126,7 +127,8 @@ Start with:
 
 - 16–32GB RAM  
 - 1 SSD or NVMe  
-- Any modern CPU with virtualization extensions  
+- Any modern CPU with virtualization extensions 
+- 6th Gen Intel or newer for video encoding (Plex or Jellyfin) 
 
 That’s enough to run:
 
@@ -188,16 +190,27 @@ Automation solves volatility.
 Your baseline topology should resemble something like:
 
 Internet
+
 ↓
+
 Firewall (pfSense / OpenWrt)
+
 ↓
+
 Managed Switch (VLAN aware)
+
 ↓
+
 Proxmox Host
+
 ├── Reverse Proxy (Nginx / Traefik)
+
 ├── DNS Filtering (Pi-hole / AdGuard)
+
 ├── Home Automation
+
 ├── Monitoring
+
 └── Lab/Test Machines
 
 
