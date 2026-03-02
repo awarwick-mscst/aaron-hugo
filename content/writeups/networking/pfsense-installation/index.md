@@ -22,7 +22,7 @@ Your laptop can talk to your smart bulbs. Your TV can talk to your NAS. Your IoT
 
 That’s not a lab. That’s a liability.
 
-If you want a home lab that actually teaches real networking — segmentation, routing, firewall policy, and security boundaries — you need a real firewall.
+If you want a home lab that actually teaches real networking, segmentation, routing, firewall policy, and security boundaries, you need a real firewall.
 
 Let’s build one with **pfSense CE**.
 
@@ -352,7 +352,7 @@ Anyone can plug in a router.
 
 Builders design networks.
 
-When you segment your home lab with pfSense, you’re not just improving security — you’re learning routing, policy enforcement, and infrastructure architecture the right way.
+When you segment your home lab with pfSense, you’re not just improving security,  you’re learning routing, policy enforcement, and infrastructure architecture the right way.
 
 Flat networks are easy.
 

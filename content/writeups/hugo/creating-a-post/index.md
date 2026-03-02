@@ -185,4 +185,4 @@ Next up, I’ll get into how I organize posts, handle images, and eventually pus
 
 Write locally. Preview instantly. Repeat.
 
-If you’re following along and hit a snag, you know where to find me — probably staring at a terminal, wondering why I didn’t document the last thing sooner.
+If you’re following along and hit a snag, you know where to find me,  probably staring at a terminal, wondering why I didn’t document the last thing sooner.
