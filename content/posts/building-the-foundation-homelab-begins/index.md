@@ -13,6 +13,60 @@ tags:
 
 # Building the Foundation: Where a Real Home Lab Actually Begins
 
+Key principle:
+
+Terminate TLS at a single reverse proxy.  
+Expose one entry point.  
+Keep everything else internal.  
+
+That’s discipline.
+
+---
+
+# The Real Reason to Do It This Way
+
+This isn’t about running Plex on better hardware.
+
+This is about understanding:
+
+- How packets move
+- How identity works
+- How segmentation reduces risk
+- How public DNS interacts with private services
+- How virtualization abstracts hardware
+
+You can buy ecosystems.
+
+Or you can build infrastructure.
+
+One teaches consumption.
+
+The other teaches architecture.
+
+---
+
+# From Here
+
+Once these three layers are stable:
+
+1. Firewall
+2. Hypervisor
+3. Domain + DNS
+
+Then you start layering services.
+
+Then you experiment with containers.
+Then you test identity providers.
+Then you simulate production patterns.
+
+But not before.
+
+If I’m going to keep documenting this lab, the next logical step is hardening the firewall and wiring proper reverse proxy + certificate automation.
+
+Because foundations first.
+
+Always.
+
 Alright. Let’s reset the narrative.
 
 If your “home lab” started with Docker Compose and a YouTube tutorial titled *“10 Services You NEED to Self-Host”* — you skipped the hard part.
