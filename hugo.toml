@@ -59,3 +59,8 @@ theme = "terminal"
     name = "contact"
     url = "/contact/"
     weight = 5
+
+[params.social]
+  github = "https://github.com/awarwick-mscst"
+  linkedin = "https://www.linkedin.com/in/aaron-warwick-97066344/"
+  

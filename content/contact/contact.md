@@ -2,7 +2,7 @@
 title: "Contact"
 date: 2026-02-14T14:00:00-06:00
 description: "Contact Me."
-draft: false
+draft: true
 ---
 
 Hello, friend.
