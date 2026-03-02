@@ -43,7 +43,7 @@ You’ll have infrastructure.
 
 # What We’re Building
 
-We’ll install **:contentReference[oaicite:0]{index=0} CE** as our perimeter firewall and router.
+We’ll install **pfSense CE** as our perimeter firewall and router.
 
 We’ll create these VLANs:
 
