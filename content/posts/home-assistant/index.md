@@ -160,6 +160,7 @@ With ESPHome you can build your own:
 - Relay switches
 - Garage door controllers
 - Environmental monitoring devices
+- BlueTooth reciever
 
 These devices communicate **directly with Home Assistant** and operate entirely on your local network.
 
@@ -172,6 +173,25 @@ For example, you could build sensors for:
 - Water tank levels
 - Attic temperature monitoring
 - Custom automation buttons
+
+Another powerful capability of ESPHome is the ability to turn an **ESP32 into a Bluetooth proxy or relay**.
+
+This allows the ESP32 to:
+
+- Detect nearby **Bluetooth Low Energy (BLE) devices**
+- Relay Bluetooth signals back to Home Assistant
+- Extend Bluetooth coverage throughout your house
+- Connect Bluetooth sensors directly to your Home Assistant system
+
+By placing ESP32 devices around your home, you can create a **distributed Bluetooth network** that dramatically improves range and reliability.
+
+This enables features like:
+
+- **Room-level presence detection**
+- **Device tracking using Bluetooth Low Energy**
+- Connecting low-power Bluetooth sensors throughout the house
+
+ESPHome makes this incredibly easy to deploy, turning a $5–$10 microcontroller into a powerful part of your smart home infrastructure.
 
 If you enjoy DIY projects or want **ultimate flexibility**, ESPHome is one of the best tools in the Home Assistant ecosystem.
 
@@ -194,6 +214,68 @@ Common Bluetooth devices include:
 Because Bluetooth devices operate locally and often use very little power, they can be a great option for **small sensors placed around the home**.
 
 Many Home Assistant users deploy **ESP32 Bluetooth proxies** throughout their home to extend Bluetooth coverage and improve reliability.
+
+---
+
+# Millimeter Wave Presence Detection (mmWave)
+
+Traditional motion sensors work by detecting movement. This means they often fail in situations where someone is **sitting still**, such as:
+
+- Watching TV
+- Working at a desk
+- Sleeping
+- Reading a book
+
+This is where **millimeter wave (mmWave) presence detection** becomes a game changer.
+
+mmWave sensors use radar technology to detect **extremely small movements**, including something as subtle as **a person breathing**.
+
+Even if someone is sitting completely still, the sensor can still detect their presence.
+
+Benefits of mmWave presence detection include:
+
+- Detecting people who are sitting still
+- Far more accurate room occupancy detection
+- Eliminating lights turning off while someone is in the room
+- Detecting people through thin walls or in adjacent spaces (depending on the sensor)
+
+These sensors are becoming increasingly popular in advanced Home Assistant setups.
+
+You have two main options for using them:
+
+### Standalone Presence Sensors
+
+There are several commercially available mmWave presence sensors that integrate directly with Home Assistant using Zigbee, WiFi, or ESPHome.
+
+These can be mounted on ceilings or walls to provide **highly accurate room occupancy detection**.
+
+---
+
+### DIY mmWave Sensors with ESPHome
+
+For DIY enthusiasts, you can build your own mmWave presence detectors using:
+
+- An **ESP32**
+- A **mmWave radar module**
+- **ESPHome firmware**
+
+This combination allows you to create powerful presence sensors that integrate directly with Home Assistant.
+
+These DIY sensors can provide detailed information such as:
+
+- Presence detection
+- Motion detection
+- Distance from sensor
+- Zone detection within a room
+
+This opens the door to extremely advanced automations such as:
+
+- Lights that stay on as long as someone is in the room
+- Lighting that follows a person as they move across zones
+- HVAC adjustments based on occupancy
+- Smart offices that react to desk presence
+
+For modern smart homes, **mmWave sensors are quickly becoming one of the best upgrades you can add**.
 
 ---
 
