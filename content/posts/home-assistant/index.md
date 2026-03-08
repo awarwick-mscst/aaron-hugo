@@ -201,13 +201,41 @@ If your security cameras depend on someone else's servers, **they’re not reall
 
 ---
 
-# Remote Access Without Giving Up Control
+# Remote Access and Smart Alerts
 
-Just because Home Assistant is self-hosted **doesn't mean you can't access it remotely**.
+Just because Home Assistant is self-hosted **doesn't mean you lose visibility when you're away from home**.
 
-In fact, there are several great ways to securely access your system from anywhere.
+Home Assistant can **securely notify you about events happening in your home**, no matter where you are.
+
+For example, you can receive alerts when:
+
+- Motion is detected on your cameras
+- A package is detected at your door
+- A door or window opens
+- Water leak sensors detect moisture
+- Temperatures fall outside a safe range
+- Power consumption spikes
+
+Temperature monitoring alone opens up many possibilities. You could monitor:
+
+- **Fish tank temperatures**
+- **Server rack temperatures**
+- **Freezer or refrigerator temperatures**
+- **Room temperatures throughout the house**
+
+If a temperature sensor reports something outside the safe range, Home Assistant can immediately send a notification to your phone.
+
+The real power here is simple:
+
+> **Anything you can monitor in Home Assistant can be automated and trigger an alert.**
+
+Lights can turn on automatically. Notifications can be sent instantly. Automations can react before a small issue becomes a big problem.
+
+But to view dashboards or control your system remotely, you'll still want a secure way to access your Home Assistant instance.
 
 Here are three common options.
+
+---
 
 ## Option 1: Home Assistant Cloud
 
