@@ -79,7 +79,8 @@ When building a Home Assistant ecosystem, the goal should be:
 My preferred approach is based on two technologies:
 
 1. **Zigbee**
-2. **WiFi devices that support Tasmota firmware**
+2. **Zwave**
+3. **WiFi devices that support Tasmota firmware**
 
 ---
 
@@ -116,6 +117,27 @@ This makes Zigbee perfect for:
 - Environmental sensors
 
 Once paired, these devices **talk directly to Home Assistant**, not the internet.
+
+---
+
+# Z-Wave: Another Excellent Option
+
+Z-Wave is another excellent protocol for home automation and is widely respected for its reliability and security.
+
+Like Zigbee, **Z-Wave devices operate locally** and form a **mesh network** that communicates directly with your Home Assistant system.
+
+Advantages of Z-Wave include:
+
+- Strong interoperability standards
+- Excellent reliability
+- Long wireless range
+- Secure communication
+
+Z-Wave devices are often slightly more expensive, but they are typically **very well built and extremely reliable**.
+
+Both Zigbee and Z-Wave work extremely well with Home Assistant, and many advanced users run **both networks side-by-side**.
+
+Personally, I tend to lean toward **Zigbee simply because there are far more devices available**, which makes it easier to build and expand a smart home system over time.
 
 ---
 
