@@ -327,7 +327,13 @@ This allows your system to:
 - Avoid subscription services
 - Maintain complete privacy
 
-Your camera system stays **inside your own network**, exactly where it belongs.
+Unlike many cloud camera platforms, you can still **receive alerts and check your cameras remotely from your phone** without sending your video data to a third-party cloud provider.
+
+This means you get the convenience of remote monitoring and notifications while keeping your footage **under your control**.
+
+You don't have to worry about a company analyzing your video feeds, selling your data, or sharing footage with third parties such as advertisers, data brokers, or even law enforcement without your knowledge.
+
+Your cameras remain **your cameras**, with recordings stored locally on your own network.
 
 For this reason, I typically avoid systems like:
 
