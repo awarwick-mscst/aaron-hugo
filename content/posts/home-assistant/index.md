@@ -371,9 +371,7 @@ Lights can turn on automatically. Notifications can be sent instantly. Automatio
 
 But to view dashboards or control your system remotely, you'll still want a secure way to access your Home Assistant instance.
 
-Here are three common options.
-
----
+To securely access your Home Assistant dashboard when you're away from home, there are **three common remote access methods**.
 
 ## Option 1: Home Assistant Cloud
 
@@ -383,11 +381,11 @@ This service provides:
 
 - Secure remote access
 - Simple setup
+- Push notifications
+- Integration with voice assistants
 - Support for the Home Assistant project
 
 It’s the most beginner-friendly approach and helps support the open-source ecosystem.
-
----
 
 ## Option 2: VPN Access
 
@@ -404,8 +402,6 @@ Popular options include:
 Once connected, your phone or laptop behaves as if it’s **inside your home network**, allowing you to access Home Assistant safely.
 
 This is an excellent solution for anyone already running a **home lab firewall like pfSense or OPNsense**.
-
----
 
 ## Option 3: Reverse Proxy with Your Own Domain
 
