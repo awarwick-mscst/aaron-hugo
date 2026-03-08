@@ -76,7 +76,7 @@ When building a Home Assistant ecosystem, the goal should be:
 
 > **Devices that work locally, securely, and independently of the cloud.**
 
-My preferred approach is based on two technologies:
+My preferred approach is based on three technologies:
 
 1. **Zigbee**
 2. **Zwave**
